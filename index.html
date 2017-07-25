@@ -36,8 +36,8 @@
         <img src="img/photo1.png" alt="Sandia Mountains" class="img-thumbnail">
         <div class="likes">
           <p>
-            <button type="button" class="btn btn-primary btn-sm">Like</button>
-            <button type="button" class="btn btn-default btn-sm">Comment</button>
+            <button type="button" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-heart"></span> Like</button>
+            <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-comment"></span> Comment</button>
           </p>
         </div>
 
@@ -46,8 +46,8 @@
         <img src="img/photo2.png" alt="Moon Set" class="img-thumbnail">
         <div class="likes">
           <p>
-            <button type="button" class="btn btn-primary btn-sm">Like</button>
-            <button type="button" class="btn btn-default btn-sm">Comment</button>
+            <button type="button" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-heart"></span> Like</button>
+            <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-comment"></span> Comment</button>
           </p>
         </div>
       </div>
@@ -55,8 +55,8 @@
         <img src="img/photo3.png" alt="Datura Flower" class="img-thumbnail">
         <div class="likes">
           <p>
-            <button type="button" class="btn btn-primary btn-sm">Like</button>
-            <button type="button" class="btn btn-default btn-sm">Comment</button>
+            <button type="button" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-heart"></span> Like</button>
+            <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-comment"></span> Comment</button>
           </p>
         </div>
       </div>
@@ -64,13 +64,46 @@
        <img src="img/photo4.png" alt="Joshua Tree" class="img-thumbnail">
        <div class="likes">
          <p>
-           <button type="button" class="btn btn-primary btn-sm">Like</button>
-           <button type="button" class="btn btn-default btn-sm">Comment</button>
+           <button type="button" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-heart"></span> Like</button>
+           <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-comment"></span> Comment</button>
          </p>
        </div>
      </div>
     </div>
   </div>
+
+    <!-- Modal Content -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Add Comment</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Comment</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" rows="3" placeholder="Comment"></textarea>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
 
     <!-- FOOTER SECTION - Before closing </body> tag -->
 
