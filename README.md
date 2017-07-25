@@ -14,5 +14,6 @@ Download Bootstrap - http://getbootstrap.com/
 
 Bootstrap Documentation - http://getbootstrap.com/getting-started/#examples
 
+More Bootstrap - https://www.tutorialspoint.com/bootstrap
 
 Class Feedback - https://goo.gl/forms/x2s4Q3qRjGdHuJRR2
