@@ -7,8 +7,11 @@ Class slides - http://bit.ly/2uxuVsh
 
 
 Free resources:
+
 Lynda (free with Princeton PL Library Card)- https://www.lynda.com
+
 Download Bootstrap - http://getbootstrap.com/
+
 Bootstrap Documentation - http://getbootstrap.com/getting-started/#examples
 
 
